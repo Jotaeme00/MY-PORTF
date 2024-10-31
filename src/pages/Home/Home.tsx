@@ -1,13 +1,14 @@
+import NavBar from "../../components/NavBar"
 import Hero from "./sections/Hero/Hero"
 
 const Home = () => {
-  
 
-    return (
-      <>
-        <Hero/>
-      </>
-    )
-  }
   
-  export default Home
+    return (
+        <>
+            <NavBar />
+            <Hero />
+        </>
+    )
+}
+export default Home
